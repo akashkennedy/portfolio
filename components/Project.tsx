@@ -8,7 +8,7 @@ interface ProjectProps {
 
 const Project = ({ title, desc, img }: ProjectProps) => {
   return (
-    <article className="flex gap-5 mb-10">
+    <article className="flex flex-col gap-5 mb-10 md:flex-col lg:flex-row ">
       <div>
         <img src={img} alt={title} className="rounded-lg" />
       </div>
@@ -17,7 +17,10 @@ const Project = ({ title, desc, img }: ProjectProps) => {
         <p className="border p-3 rounded-lg bg-white bg-opacity-10 backdrop-blur-3xl">
           {desc}
         </p>
-        <Button label="Live Demo" className="w-36 h-12 font-normal" />
+        <Button
+          label="Live Demo"
+          className="w-full md:w-36 lg:w-36 h-12 font-normal"
+        />
       </div>
     </article>
   );

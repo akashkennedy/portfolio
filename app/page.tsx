@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <main className="mx-5 md:mx-10 lg:mx-24">
       <Progress color2="#7127BA" size="3px" />
-      <div className="my-20 md:my-28 lg:min-h-screen lg:my-0 flex items-start justify-center flex-col max-w-3xl gap-5">
+      <div className="my-20 md:my-28 md:mr-24 lg:min-h-screen lg:my-0 flex items-start justify-center flex-col max-w-3xl gap-5">
         <h2 className="text-2xl">
           Hello I'm{" "}
           <span id="heading" className="text-secondary">
