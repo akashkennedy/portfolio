@@ -27,13 +27,15 @@ const Home = () => {
             A Front End <span className="text-secondary">Developer</span>
           </h1>
           <p className="text-base">
-            A Self Taught Front End developer with Great Experience with Latest
+            A Self Taught Front End developer with Great Experience in Latest
             Web Technologies.Specialized in React Js and Tailwind CSS with
             writing Robust and Maintainable Code using Typescript.
           </p>
         </div>
         <div className="space-x-3">
-          <Button label="Resume" />
+          <a href="/Akash-Kennedy.pdf" download={true} target="_blank">
+            <Button label="Resume" />
+          </a>
           <Button
             label="Contact"
             className="border bg-white bg-opacity-10 backdrop-blur-3xl"
