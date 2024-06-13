@@ -3,6 +3,7 @@
 import TypeIt from "typeit-react";
 import Button from "@/components/Button";
 import SocialSidebar from "@/components/SocialSidebar";
+import Image from "next/image";
 
 const Home = () => {
   return (
@@ -14,7 +15,14 @@ const Home = () => {
             <TypeIt>Akash Kennedy</TypeIt>
           </span>
         </h2>
-        <div className="space-y-3">
+        <div className="space-y-3 relative">
+          <Image
+            src="/ellipse.svg"
+            height={200}
+            width={350}
+            alt="Ellipse"
+            className="absolute right-3"
+          />
           <h1>
             A Front End <span className="text-secondary">Developer</span>
           </h1>
