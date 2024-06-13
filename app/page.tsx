@@ -6,6 +6,7 @@ import SocialSidebar from "@/components/SocialSidebar";
 import Image from "next/image";
 import Project from "@/components/Project";
 import projectsData from "@/constants/projects";
+import TechStack from "@/components/TechStack";
 
 const Home = () => {
   return (
@@ -45,6 +46,7 @@ const Home = () => {
         </div>
         <SocialSidebar />
       </div>
+      <h2 className="text-center mb-16">Projects</h2>
       {projectsData.map((project) => (
         <Project
           title={project.title}
@@ -53,6 +55,8 @@ const Home = () => {
           key={project.id}
         />
       ))}
+      <h2 className="text-center mt-20">Tech Stack</h2>
+      <TechStack />
     </main>
   );
 };

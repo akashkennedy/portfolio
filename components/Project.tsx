@@ -8,7 +8,7 @@ interface ProjectProps {
 
 const Project = ({ title, desc, img }: ProjectProps) => {
   return (
-    <article className="flex gap-5 my-10">
+    <article className="flex gap-5 mb-10">
       <div>
         <img src={img} alt={title} className="rounded-lg" />
       </div>
