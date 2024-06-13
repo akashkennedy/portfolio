@@ -7,10 +7,12 @@ import Image from "next/image";
 import Project from "@/components/Project";
 import projectsData from "@/constants/projects";
 import TechStack from "@/components/TechStack";
+import { Progress } from "scroll-up-react";
 
 const Home = () => {
   return (
     <main className="mx-24">
+      <Progress color2="#7127BA" size="3px" />
       <div className="min-h-screen flex items-start justify-center flex-col max-w-3xl gap-5">
         <h2 className="text-2xl">
           Hello I'm{" "}
