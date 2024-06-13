@@ -2,7 +2,7 @@ import { Github, Linkedin, Twitter } from "lucide-react";
 
 const SocialSidebar = () => {
   return (
-    <aside className="hidden absolute border bg-white bg-opacity-10 backdrop-blur-3xl min-w-20 min-h-96 right-0 rounded-l-3xl  flex-col items-center justify-center gap-12 md:flex lg:flex">
+    <aside className="hidden backdrop:lg:absolute border bg-white bg-opacity-10 backdrop-blur-3xl min-w-20 min-h-96 right-0 rounded-l-3xl flex flex-col items-center justify-center gap-12">
       <div className="cursor-pointer">
         <a href="https://www.github.com/akashkennedy" target="_blank">
           <Github />
