@@ -4,6 +4,8 @@ import TypeIt from "typeit-react";
 import Button from "@/components/Button";
 import SocialSidebar from "@/components/SocialSidebar";
 import Image from "next/image";
+import Project from "@/components/Project";
+import projectsData from "@/constants/projects";
 
 const Home = () => {
   return (
@@ -43,6 +45,14 @@ const Home = () => {
         </div>
         <SocialSidebar />
       </div>
+      {projectsData.map((project) => (
+        <Project
+          title={project.title}
+          desc={project.desc}
+          img={project.img}
+          key={project.id}
+        />
+      ))}
     </main>
   );
 };
