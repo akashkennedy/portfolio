@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Preahvihear } from "next/font/google";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const preahvihear = Preahvihear({
   weight: "400",
