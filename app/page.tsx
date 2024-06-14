@@ -1,5 +1,5 @@
 "use client";
-
+import { useState } from "react";
 import TypeIt from "typeit-react";
 import Button from "@/components/Button";
 import SocialSidebar from "@/components/SocialSidebar";
@@ -11,6 +11,16 @@ import MobileFooter from "@/components/MobileFooter";
 import { Progress } from "scroll-up-react";
 
 const Home = () => {
+  const [emailDetails, setEmailDetails] = useState({
+    to: "akashkennedy1@gmail.com",
+  });
+
+  const handleContact = () => {
+    const { to } = emailDetails;
+    const mailtoLink = `mailto:${to}`;
+    window.location.href = mailtoLink;
+  };
+
   return (
     <main className="mx-5 md:mx-10 lg:mx-24">
       <Progress color2="#7127BA" size="3px" />
@@ -49,6 +59,7 @@ const Home = () => {
           <Button
             label="Contact"
             className="border bg-white bg-opacity-10 backdrop-blur-3xl w-full lg:w-48"
+            onClick={handleContact}
           />
         </div>
         <SocialSidebar />
