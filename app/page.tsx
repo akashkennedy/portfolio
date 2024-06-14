@@ -26,7 +26,7 @@ const Home = () => {
             height={200}
             width={350}
             alt="Ellipse"
-            className="absolute top-11 md:right-20 md:top-1 lg:right-28 lg:top-2"
+            className="absolute top-11 pointer-events-none md:right-20 md:top-1 lg:right-28 lg:top-2"
           />
           <h1 className="text-5xl my-3 lg:block">
             A Front End <span className="text-secondary">Developer</span>
