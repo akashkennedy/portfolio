@@ -60,6 +60,7 @@ const Home = () => {
           desc={project.desc}
           img={project.img}
           key={project.id}
+          href={project.href}
         />
       ))}
       <h2 className="text-center mt-20">Tech Stack</h2>

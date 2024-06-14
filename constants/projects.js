@@ -18,7 +18,7 @@ const projectsData = [
     title: "Krypto",
     desc: "Responsive Single Page Landing Page using React Js and Tailwind CSS.The Page Provides a Aestheic Feel by using Illustrations and Static Background Effects.It also has a Hamburger Menu For Mobile Displays.The site is Optimized for Performance and Search Engine Optimization Practices.This Provides the user a Sleek  Experience.",
     img: "/krypto.png",
-    href: "https://edu-io-akashdev.netlify.app/",
+    href: "https://krypto-akashdev.netlify.app/",
   },
 ];
 

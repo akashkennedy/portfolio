@@ -18,12 +18,11 @@ const Project = ({ title, desc, img, href }: ProjectProps) => {
         <p className="border p-3 rounded-lg bg-white bg-opacity-10 backdrop-blur-3xl">
           {desc}
         </p>
-        <a href={href} target="_blank">
-          <Button
-            label="Live Demo"
-            className="w-full md:w-36 lg:w-36 h-12 font-normal"
-          />
-        </a>
+        <Button
+          label="Live Demo"
+          className="w-full md:w-36 lg:w-36 h-12 font-normal"
+          href={href}
+        />
       </div>
     </article>
   );
