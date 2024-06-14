@@ -7,6 +7,7 @@ import Image from "next/image";
 import Project from "@/components/Project";
 import projectsData from "@/constants/projects";
 import TechStack from "@/components/TechStack";
+import MobileFooter from "@/components/MobileFooter";
 import { Progress } from "scroll-up-react";
 
 const Home = () => {
@@ -61,6 +62,7 @@ const Home = () => {
       ))}
       <h2 className="text-center mt-20">Tech Stack</h2>
       <TechStack />
+      <MobileFooter />
     </main>
   );
 };
