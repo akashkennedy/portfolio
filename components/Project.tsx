@@ -4,9 +4,10 @@ interface ProjectProps {
   title: string;
   desc: string;
   img: string;
+  href: string;
 }
 
-const Project = ({ title, desc, img }: ProjectProps) => {
+const Project = ({ title, desc, img, href }: ProjectProps) => {
   return (
     <article className="flex flex-col gap-5 mb-10 md:flex-col lg:flex-row ">
       <div>
@@ -17,10 +18,12 @@ const Project = ({ title, desc, img }: ProjectProps) => {
         <p className="border p-3 rounded-lg bg-white bg-opacity-10 backdrop-blur-3xl">
           {desc}
         </p>
-        <Button
-          label="Live Demo"
-          className="w-full md:w-36 lg:w-36 h-12 font-normal"
-        />
+        <a href={href} target="_blank">
+          <Button
+            label="Live Demo"
+            className="w-full md:w-36 lg:w-36 h-12 font-normal"
+          />
+        </a>
       </div>
     </article>
   );

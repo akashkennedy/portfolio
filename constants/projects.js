@@ -2,20 +2,23 @@ const projectsData = [
   {
     id: 1,
     title: "Edu.io",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unch",
+    desc: "An Interactive and Responsive Multipage Educational Landing Page that Promotes Certain Types of Education or Courses in an More Engaging Way to the Students.The Site is a School  themed with Subtile Effects that makes it Minimalisic and User Friendly.The Site is Powered by React Js and Tailwind CSS as Its Core and React Router for Routing",
     img: "/edu-io.png",
+    href: "https://edu-io-akashdev.netlify.app/",
   },
   {
     id: 2,
     title: "Datawise",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    desc: "Responsive Landing Page with Adaptive Layout For Mobile, Tablet and Desktop Displays.The Page has variety of Designs and Made with Maintainable Code Patterns. The Page is Powered by React and Tailwind CSS with Better Version Control using VC tools like Git and Github.The Page also Provides a Profeesional Experience for its Users",
     img: "/datawise.png",
+    href: "https://datawise-akashdev.netlify.app/",
   },
   {
     id: 3,
     title: "Krypto",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text  release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    desc: "Responsive Single Page Landing Page using React Js and Tailwind CSS.The Page Provides a Aestheic Feel by using Illustrations and Static Background Effects.It also has a Hamburger Menu For Mobile Displays.The site is Optimized for Performance and Search Engine Optimization Practices.This Provides the user a Sleek  Experience.",
     img: "/krypto.png",
+    href: "https://edu-io-akashdev.netlify.app/",
   },
 ];
 

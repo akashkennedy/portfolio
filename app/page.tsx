@@ -34,9 +34,11 @@ const Home = () => {
           </h1>
 
           <p className="py-3 leading-loose">
-            A Self Taught Front End developer with Great Experience in Latest
-            Web Technologies.Specialized in React Js and Tailwind CSS with
-            writing Robust and Maintainable Code using Typescript.
+            Aspiring self taught Frontend developer with a strong foundation in
+            React.js, Next Js, Typescript and Tailwind CSS. Eager to apply my
+            skills and passion for creating user-friendly web solutions.
+            Committed to learning and growing in the field, with a focus on
+            delivering high-quality work that meets client needs.
           </p>
         </div>
 
